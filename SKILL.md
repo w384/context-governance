@@ -51,7 +51,3 @@ Use when initializing a project or installing an agent template. Follow [referen
 - Project template: `$CODEX_HOME/agent-templates/project-agent/`
 - Capabilities: `$CODEX_HOME/skills/`, `$CODEX_HOME/workflows/`
 - History: `$CODEX_HOME/memories/raw_memories.md`, `$CODEX_HOME/memories/rollout_summaries/`
-
-## Localization
-
-Chinese translation: [SKILL.zh-CN.md](SKILL.zh-CN.md).
