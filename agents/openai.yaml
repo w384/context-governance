@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Governance"
+  short_description: "Govern Codex context architecture and initialize new projects"
+  default_prompt: "Use $context-governance to restructure a Codex context architecture or initialize a new project."
