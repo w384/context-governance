@@ -7,7 +7,7 @@ Run when initializing a project, installing an agent template, or copying the pr
 2. Copy the whole template `$CODEX_HOME/agent-templates/project-agent/` into the project root — do not hand-write a stripped AGENTS.md.
 3. The template contains: `AGENTS.md`, `README.md`, `.learnings/LEARNINGS.md`, `.learnings/ERRORS.md`, `docs/agent/workflows.md`, `docs/agent/memory-and-decisions.md`.
 4. If files already exist, decide whether to replace; a "reinstall" request means the template overwrites.
-5. Fill the project AGENTS.md placeholders: one-line positioning, target users, current phase, success criteria, "currently not doing", authority sources, constraints (must-keep / must-not-change / needs-confirmation), tool routing, verification commands.
+5. Fill the project AGENTS.md placeholders: one-line positioning, target users, current phase, success criteria, "currently not doing", authority sources, constraints (must-keep / must-not-change / needs-confirmation), tool routing, verification commands. Preserve the tool-availability guard in tool routing unless the target runtime is explicitly not Codex desktop.
 6. Point the project AGENTS.md at the global AGENTS.md and memory (the template already does this by default).
 7. Use `work/` for process files and `outputs/` for deliverables.
 8. Register the project's memory location in `memories/memory_summary.md`.

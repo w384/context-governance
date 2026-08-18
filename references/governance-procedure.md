@@ -11,6 +11,7 @@ Read when running a governance or restructure task. Move detail out; never delet
 
 ### P1 — Global AGENTS.md
 - Keep only: the user's preferred language and salutation, conclusion-first output, execute simple tasks directly, clarify complex or high-risk tasks first, minimal viable solution, no scope creep, no unrelated refactors, every change traced and verified.
+- Keep the tool-availability guard as an always-on rule: before claiming a tool is missing, runtime-enumerate or directly probe it. This prevents prompt/runtime drift from becoming a repeated false conclusion.
 - Rule precedence: global = base; project or nearer rules override.
 - Safety: external publish / permission change / delete / bulk overwrite need explicit authorization; never leak credentials; never claim "verified/safe" without evidence; security or permission changes use TDD RED→GREEN.
 - Output: conclusion-first, executable, state verification and risk.
@@ -29,6 +30,7 @@ Read when running a governance or restructure task. Move detail out; never delet
 
 ### P4 — Project AGENTS.md
 - Keep: project tech constraints, always-on safety boundaries, verification requirements.
+- Keep the project/template tool-routing guard when the project depends on Codex desktop tools, especially codex_app__ thread tools and runtime Object.keys(tools) / typeof tools.<name> verification.
 - Move out: background → README; history → devlog or structure; security background → SECURITY.md; consent explainers → install doc; PR/branch/review detail → CONTRIBUTING.md.
 - Target: ~2–4 KB.
 

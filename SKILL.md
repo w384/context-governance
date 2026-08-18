@@ -43,6 +43,8 @@ Use when initializing a project or installing an agent template. Follow [referen
 - Do not remove safety boundaries to save tokens.
 - Do not store project wikis in MEMORY.
 - Do not delete plugin caches to "optimize" context.
+- Do not conclude a tool is missing from the outer tool list alone; runtime-enumerate or probe first when the environment exposes nested tools.
+- Keep the tool-availability guard in the resident/project layers when contexts are re-layered or initialized.
 - Do not infer tokens from file size alone; measure on a fresh thread.
 
 ## Key paths
